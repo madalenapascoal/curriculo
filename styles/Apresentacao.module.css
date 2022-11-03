@@ -1,0 +1,47 @@
+.title {
+  text-align: center;
+  min-width: 320px;
+  max-width: 1400px;
+  margin-top: 130px;
+}
+
+.title h1 {
+  font-size: max(20px,2.5vw);
+  margin-top: .5em;
+  margin-bottom:1em;
+  color:#fff;
+}
+
+.title h2 {
+  font-size: max(15px,1.7vw);
+  margin-top: 1em;
+  margin-bottom: .2em;
+  color:#43c8e6;
+  text-decoration: underline; 
+}
+.title h3 {
+  font-size: max(14px,1.5vw);
+  margin-top: 1em;
+  margin-bottom: .2em;
+  color:#7fb8c5;
+  
+}
+.title h4 {
+  font-size: max(13px,1.1vw);
+  margin-top: 1em;
+  margin-bottom: .2em;
+  color:#fff;
+  
+}
+.title h5 {
+  font-size: max(13px,1vw);
+  margin-top: 1em;
+  margin-bottom: .2em;
+  color:#ccc;
+  
+}
+.title p {
+  margin-bottom: .5em;
+  color:#fff;
+  font-size: max(10px,1.2vw);
+}

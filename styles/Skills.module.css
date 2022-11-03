@@ -1,0 +1,53 @@
+.title {
+  text-align: center;
+  min-width: 320px;
+  max-width: 1400px;
+margin-top: 130px;
+}
+
+.title h1 {
+  font-size: max(20px,2.5vw);
+  margin-top: .5em;
+  margin-bottom:1em;
+  color:#fff;
+}
+
+.skills_subtitle{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 1em; 
+   padding-top: 2em; 
+   color:#777;
+   text-decoration: underline;
+  
+}
+.listHardSkills{
+   display: flex;
+   justify-content:center;
+   align-items:stretch;
+   flex-wrap: wrap;
+   min-width: 320px;
+    max-width: 1400px;
+   margin: 0 auto;
+}
+.listSoftSkills{
+   display: flex;
+   justify-content:center;
+   align-items:stretch;
+   flex-wrap: wrap;
+  min-width: 320px;
+    max-width: 1400px;
+   margin: 0 auto;
+   padding:1em;
+}
+.listSoftSkills li{
+    display: block;
+    color:#377f8f;
+    background-color: rgb(219, 213, 213);
+     border: 2px solid #377f8f;
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
+  padding: 4px;
+  min-width: 320px;
+  max-width: 1400px;
+}

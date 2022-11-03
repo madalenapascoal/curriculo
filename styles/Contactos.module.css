@@ -1,0 +1,45 @@
+.title {
+  text-align: center;
+  min-width: 320px;
+  max-width: 1400px;
+  margin-top: 130px;
+}
+
+.title h1 {
+  font-size: max(20px,2.5vw);
+  margin-top: .5em;
+  margin-bottom:1em;
+  color:#fff;
+}
+
+.div{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 44vh;
+   
+}
+.divs{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:20%;
+  height: 240px;
+  background-color: #377f8f;
+  border-radius: 1em;
+  border: 2px solid #bccdd1;
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
+  margin:10px;
+  
+}
+.divs a{
+  color: rgb(238, 230, 230);
+  font-size: max(13px,1.4vw);
+  text-decoration: none;
+  
+}
+.divs a:hover{
+  color: rgb(238, 230, 230);
+  font-size: 1.2em;
+  text-decoration:underline;
+}

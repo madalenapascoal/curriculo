@@ -1,0 +1,42 @@
+.formcertificate{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  padding: 2em 1em;
+  margin-bottom: 2em;
+  border-radius: 1em;
+  border: 2px solid #bccdd1;
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
+  background-color: #377f8f;
+  color: rgb(238, 230, 230);
+  width:31%;
+  margin: 3px;
+  text-align: center;
+  min-width: 320px;
+  max-width: 1400px;
+}
+.formcertificate h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+  font-size: max(13px,1.2vw);
+}
+.formcertificate h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+  font-size: max(12px,1.1vw);
+  color:#333;
+}
+.formcertificate h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: .5em;
+  font-size: max(11px,1vw);
+  color:#bccdd1;
+  padding-top: 1em;
+}
